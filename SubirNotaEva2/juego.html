@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Número</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Adivina el Número</h1>
+        <p>Estoy pensando en un numero entre 1 y 100</p>
+        <h4 id="contador-intentos">Intentos: 0</h4>
+        <input type="number" id="guess-input" placeholder="Ingresa tu adivinanza.. ">
+        <button id="submit-btn">Adivinar</button>
+        <h3>Intentos realizados</h3>
+        <ul id="lista-intentos" class="list-group"></ul>
+        <p id="feedback"></p>
+        <button id="reset-btn" style="display: none;">Reiniciar Juego</button>
+    </div>
+    <script src="js/juego.js"></script>
+</body>
+</html>
